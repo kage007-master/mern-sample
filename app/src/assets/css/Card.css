@@ -1,0 +1,56 @@
+.card {
+  padding: 10px;
+  border-radius: 10px !important;
+  background: rgba(255, 255, 255, 0.1) !important;
+  position: relative;
+}
+
+.card-info {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: calc(100% - 20px);
+  height: 100%;
+  opacity: 0;
+  padding: 10px;
+  backdrop-filter: blur(6px);
+  background-color: rgba(99, 82, 196, 0.2);
+}
+
+.card:hover .card-info {
+  opacity: 1 !important;
+}
+
+.card-image {
+  aspect-ratio: 1/1;
+  border-radius: 10px;
+}
+
+.chip {
+  background: rgba(255, 255, 255, 0.8) !important;
+  margin: 5px !important;
+}
+
+.text-label {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 30px;
+  margin: 0px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.text-value {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+  margin: 0px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  color: #ffffff;
+}

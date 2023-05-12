@@ -1,0 +1,71 @@
+.header {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  color: #ffffff !important;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  padding: 15px;
+}
+
+.nav-items {
+  display: flex;
+}
+
+.nav-items a {
+  color: white;
+  text-decoration: none;
+}
+
+.nav-items a.active {
+  background: linear-gradient(214.02deg, #b75cff 6.04%, #671ae4 92.95%);
+  border-radius: 10px;
+}
+
+.basic-menu {
+  display: flex !important;
+  flex-direction: column !important;
+  padding: 10px;
+}
+
+.basic-menu a.active {
+  background: linear-gradient(214.02deg, #b75cff 6.04%, #671ae4 92.95%);
+  border-radius: 10px;
+}
+
+.collapse {
+  border-radius: 10px;
+  display: none;
+  padding: 20px;
+}
+
+.collapse:hover {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+@media only screen and (max-width: 600px) {
+  .collapse {
+    display: block !important;
+  }
+  .nav-items {
+    display: none !important;
+  }
+}
+
+.css-1ka5eyc-MuiPaper-root-MuiMenu-paper-MuiPopover-paper {
+  width: 100%;
+  top: 142px !important ;
+  background: linear-gradient(113.49deg, #984d38 -30.3%, #181e41 58.12%);
+}
+
+button {
+  outline: none;
+  border: 0;
+  background: transparent;
+}
